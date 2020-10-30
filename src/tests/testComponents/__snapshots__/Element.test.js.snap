@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should render with given state from Redux store 1`] = `
+<div
+  className="sc-bdfBwQ gmQNOd"
+>
+  <div
+    className="sc-jSgupP bukQAx"
+    data-testid="edit"
+    onClick={[Function]}
+  />
+  <div
+    className="sc-gsTCUz gaZGJg"
+  >
+    <h4
+      className="sc-dlfnbm fSmEn"
+    >
+      Mauro
+       
+      last
+    </h4>
+  </div>
+  <div
+    className="sc-eCssSg bJgeTb image-cropper"
+  >
+    <img
+      alt="Predefined"
+      src="https://randomuser.me/api/portraits/men/83.jpg"
+    />
+  </div>
+  <div
+    className="sc-gsTCUz gaZGJg"
+  >
+    <p
+      className="sc-hKgILt fRAooq"
+    >
+      email@email.com
+    </p>
+  </div>
+  <div
+    className="sc-gsTCUz gaZGJg"
+  >
+    <p
+      className="sc-hKgILt fRAooq"
+    >
+      123456
+    </p>
+  </div>
+  <div
+    className="sc-gsTCUz gaZGJg"
+  >
+    <p
+      className="sc-hKgILt fRAooq"
+    >
+      Mar del plata
+      , 
+      Buenos Aires
+    </p>
+  </div>
+</div>
+`;
+
+exports[`actions should test button submit is present 1`] = `ReactWrapper {}`;

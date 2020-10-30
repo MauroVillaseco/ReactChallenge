@@ -9,7 +9,7 @@ const SortContainer = styled.div`
 `;
 const ButtonElement = styled.button`
  background-color: #F1F1F1;
- padding: 20px;
+ padding: 14px;
  color: #000;
  border-radius:3px;
  border:none;
@@ -31,6 +31,7 @@ export const SortElements = () => {
   return (
     <SortContainer>
       <h2>Just a button to sort by Last Name</h2>
+     
       <ButtonElement type="button" onClick={() => sortElements(elements)}>Lets Sort!</ButtonElement>
     </SortContainer>
   );

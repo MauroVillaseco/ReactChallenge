@@ -1,5 +1,4 @@
 import React from "react";
-import { Footer } from "./Footer";
 import { Header } from "./Header";
 import { VisibleElementList } from "../containers/VisibleElementList";
 import { SortElements } from "../containers/SortElements";
@@ -12,7 +11,6 @@ const App = () => {
     <Header />
     <SortElements />
     <VisibleElementList />
-    <Footer />
   </div>
 )};
 
